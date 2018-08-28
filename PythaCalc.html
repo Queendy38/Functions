@@ -1,0 +1,27 @@
+<html>
+    <head></head>
+    <body>
+        <script>
+//Pythagorean calc
+
+//we need A,B, and C
+
+//we need to suqare A, B, and C
+
+//activate when the user presses a button
+function pythag(){
+    var a = prompt("Need 'a' value");
+    var asq = a ** 2;
+    var b = prompt("Need 'b' value");
+    var bsq = b ** 2;
+    var c = asq + bsq;//Math.sqr(asq + bsq) if want to square root the answer
+   window.alert("Your answer is " + c.toFixed(3)); //.toFixed rounds answer to three decimal places
+   
+    
+
+} 
+
+        </script>
+        <button onclick="pythag()">Click on ME</button>
+    </body>
+  </html>     
