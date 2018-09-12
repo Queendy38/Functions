@@ -1,12 +1,46 @@
 <html>
-    <head>
-    <script src="script.js"></script>
+    <head> 
+        <script src="script.js"></script>
+        <style>
+            #box1{
+                width:30vw;
+                height:60vh;
+                background-color:aqua;
+                float:right;
+                transform:translate(0px, 200px);
+}
+            #box2{
+                width:30vw;
+                height:60vh;
+                background-color:antiquewhite;
+                transform:translate(0px, 200px);
+            }
+          
+
+         
+</style>
+   
     </head>
     <body>
-        <h1>Page One</h1>
-        <script>
-        getName();
-        </script>
-       <a href="page2.html">Click Here</a>
+       <div id="box1">
+           <p id="cname"> <script>seeMenu()</script></p>
+           <p id="cmeat">  <script>seeMenu()</script></p>
+           <p id="cveg"> <script>seeMenu()</script></p>
+           <p id="csauce"> <script>seeMenu()</script></p>
+           <p id="cprice"> <script>seeMenu()</script></p>
+            <button class="b1" onclick="spicyP()">Buy Me</button>
+            <h1 id="one"></h1>
+     </div>
+        <div id="box2">
+                <p id="name"> <script>seeMenu()</script></p>
+                <p id="meat">  <script>seeMenu()</script></p>
+                <p id="veg"> <script>seeMenu()</script></p>
+                <p id="sauce"> <script>seeMenu()</script></p>
+                <p id="price"> <script>seeMenu()</script></p>
+           <button class="b2" onclick="mildP()">Buy Me</button>
+            <h1 id="two"></h1>
+        </div>
+        
+        
     </body>
   </html>   
