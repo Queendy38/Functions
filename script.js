@@ -34,7 +34,6 @@ function seeMenu(){
 
    
 }
-//seeMenu();
 
 function spicyP(){
    var totalS = (spicyBur.price * 1.04712).toFixed(2);
