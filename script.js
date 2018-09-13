@@ -3,15 +3,15 @@
 //create button at the bottom
 //when button is clicked, display price with tax 4.712%
 
-var spicyBur = {
+var spicyBur = { //object for spicy burger
     name:"SpicyBurger",
     meat: "Beef",
-    veg: ["Lettuce", "tomato", "Onion"],
+    veg: ["Lettuce", "Tomato", "Onion"],
     sauce: ["Mayo", "Sriracha"],
     price: 12.95
 }
 
-var mildBur = {
+var mildBur = { //object for mild burger
  name: "MildBurger",
  meat: "Chicken",
  veg: "Spinach",
@@ -19,7 +19,7 @@ var mildBur = {
  price: 10.95
 }
 
-function seeMenu(){
+function seeMenu(){ //create a function to display objects form each id
     document.getElementById('cname').innerHTML = spicyBur.name;
     document.getElementById('cmeat').innerHTML = spicyBur.meat;
     document.getElementById('cveg').innerHTML = spicyBur.veg;
