@@ -6,10 +6,13 @@
             #box1{
                 width:30vw;
                 height:60vh;
-                background-color:aqua;
+                background-color:rgb(247, 211, 146);
                 float:right;
                 transform:translate(0px, 80px);
-               
+                margin-right:20px;
+                border-style:solid;
+                border-width:5px;
+               border-radius:10px;
                 
 }
             #box2{
@@ -17,7 +20,10 @@
                 height:60vh;
                 background-color:antiquewhite;
                 transform:translate(0px, 80px);
-               
+                margin-left:20px;
+                border-style:solid;
+                border-width:5px;
+                border-radius:10px;
             }
 
           #cname, #name, h1{
@@ -26,14 +32,24 @@
                 text-align:center;
                 
           }
-          #cname{
+          #cname, #name{
               margin-top:0px;
           }
          p{
            font-size:4vh;
           
        }
-
+       button{
+           border-radius: 10px;
+           border-color:black;
+           background-color:rgba(173, 216, 230, 0.363);
+       }
+     #holder{
+          width:90vw;
+          height:80vh;
+          background-color:lightslategray;
+          margin:auto;
+     }
 
          
 </style>
@@ -42,6 +58,7 @@
     <body>
 
         <h1>Welcome to The Burger's!</h1> 
+        <div id="holder">
        <div id="box1">
            <p id="cname"> </p>
            <p id="cmeat"> </p>
@@ -60,9 +77,9 @@
            <button class="b2" onclick="mildP()">Buy Mild</button>
             <h1 id="two"></h1>
         </div>
+        </div>
         
-        
-        <script>seeMenu()</script>
+        <script>seeMenu()</script> 
     </body>
   </html>   
   
