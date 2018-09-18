@@ -1,0 +1,27 @@
+<html>
+    <head>
+
+       <style> </style>
+         
+
+    </head>
+    <body> 
+      <script>
+        //create random website
+var stupidSites =[
+  "http://www.google.com",
+  "http://www.yahoo.com",
+  "http://www.microsoft.com"
+]
+//when user clicks a button, generate random number, and displau link on page that corresponds to random number
+function randomNum(){
+       var x = Math.floor(Math.random() * stupidSites.length);
+       var y = stupidSites[x];
+      document.getElementById('placeHere').innerHTML = "<a href="+y+"> ClickHere </a>";
+}
+
+      </script>
+  <button onclick="randomNum()"> Scramble</button>
+  <h1 id="placeHere"></h1>
+    </body>
+  </html>   

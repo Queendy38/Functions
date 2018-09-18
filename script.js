@@ -34,9 +34,9 @@ function seeMenu(){ //create a function to display objects form each id
 
    
 }
-
+ var tax = 1.04712;
 function spicyP(){
-   var totalS = (spicyBur.price * 1.04712).toFixed(2);
+   var totalS = (spicyBur.price * tax).toFixed(2);
    document.getElementById('one').innerHTML = "Your Total is " + totalS;
 }
 
